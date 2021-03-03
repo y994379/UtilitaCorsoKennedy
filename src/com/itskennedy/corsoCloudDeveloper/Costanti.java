@@ -6,4 +6,5 @@ public class Costanti {
 	public static final String CHIUDI = "Chiudi";
 	public static final int CENTO = 100;
 
+	
 }
