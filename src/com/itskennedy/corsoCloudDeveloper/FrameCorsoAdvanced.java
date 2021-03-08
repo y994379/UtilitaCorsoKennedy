@@ -41,6 +41,7 @@ public class FrameCorsoAdvanced extends JFrame {
 		//APRE LA FINESTRA ALLE COORDINATE DELL'ULTIMA CHIUSURA
 		public void windowOpened(WindowEvent e) {
 			File f = new File("C:/position.txt");
+			if(f.exists()) {
 			Scanner in;
 			try {
 				in = new Scanner(f);
@@ -54,6 +55,7 @@ public class FrameCorsoAdvanced extends JFrame {
 					ex.printStackTrace();
 				}
 			}
+		}
 		
 		@Override
 		//SALVA LE COORDINATE SU FILE ALLA CHIUSURA DELLA FINESTRA TRAMITE BUTTON
