@@ -11,6 +11,6 @@ public class FrameCorso extends JFrame {
 		this.setLocation(500, 400);
 		this.setSize(800,300);
 		this.setTitle("Frame principale dell'applicazione");
-		this.setResizable(false);
+		//this.setResizable(false);
 	}
 }
